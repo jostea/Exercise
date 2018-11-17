@@ -1,8 +1,6 @@
-import sun.util.resources.LocaleData;
+package servicePackage;
 
 import java.time.LocalDate;
-import java.util.Date;
-import java.util.Locale;
 import java.util.Objects;
 
 public class User {
@@ -29,9 +27,6 @@ public class User {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -56,40 +51,24 @@ public class User {
         return isActive;
     }
 
-    public void setActive(boolean active) {
-        isActive = active;
-    }
 
     public String getRoles() {
         return roles;
     }
 
-    public void setRoles(String roles) {
-        this.roles = roles;
-    }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
 
     public double getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
 
     public LocalDate getRegistrationDate() {
         return registrationDate;
-    }
-
-    public void setRegistrationDate(LocalDate registrationDate) {
-        this.registrationDate = registrationDate;
     }
 
 
